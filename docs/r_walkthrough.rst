@@ -57,13 +57,13 @@ Note: Everything we are going to do there can be done in Rstudio as
 well, if the rOMERO-gateway package and its dependencies are available
 on your system.
 
-rOMERO-gateway, rJava and R version [ADD R VERSION] have been installed in a Docker image. For more details, see
+rOMERO-gateway, rJava and R version 3.5.3 have been installed in a Docker image. For more details, see
 
 -  https://github.com/ome/training-notebooks/blob/master/Dockerfile
 
 -  https://github.com/ome/rOMERO-gateway
 
--  [ADD LINK to rJava]
+-  https://cran.r-project.org/web/packages/rJava/index.html
 
 **Resources:**
 --------------
@@ -105,6 +105,6 @@ Here, we give a digest of the steps inside the notebook: The notebook steps will
 
 6. Perform statistical analysis on that data in R.
 
-7. At the end of the notebook a plot is created which is similar to the one shown in \ `Figure 1 <https://www.nature.com/articles/ncb2591/figures/1>`__\  of the article. One dataset in particular has extreme outliers. OMERO.parade [ADD LINK TO OMERO.parade] can be used to find the images that cause the outliers.
+7. At the end of the notebook a plot is created which is similar to the one shown in \ `Figure 1 <https://www.nature.com/articles/ncb2591/figures/1>`__\  of the article. One dataset in particular has extreme outliers. OMERO.parade https://github.com/ome/omero-parade can be used to find the images that cause the outliers.
 
 8. Note: OMERO.parade uses the *Summary from R* table that is attached to the project in order to provide enhanced filtering and plotting features.

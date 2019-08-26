@@ -93,18 +93,18 @@ the statistical analysis at the end of the notebook.
 
 Here, we give a digest of the steps inside the notebook: The notebook steps will:
 
-1. Fetch the images from OMERO using rOMERO-gateway.
+#. Fetch the images from OMERO using rOMERO-gateway.
 
-2. Perform image segmentation to identify the protein rings around the centrioles using EBImage in R.
+#. Perform image segmentation to identify the protein rings around the centrioles using EBImage in R.
 
-3. Calculate the properties (features) of the identified objects (shape, diameter, etc.) using EBImage.
+#. Calculate the properties (features) of the identified objects (shape, diameter, etc.) using EBImage.
 
-4. Store these features in R as an R dataframe.
+#. Store these features in R as an R dataframe.
 
-5. The segmentation and feature calculation is a rather costly process. You don’t want to do this all over again. Therefore we save the identified objects (ROIs, region of interests) and the properties back to OMERO using rOMERO-gateway.
+#. The segmentation and feature calculation is a rather costly process. You don’t want to do this all over again. Therefore we save the identified objects (ROIs, region of interests) and the properties back to OMERO using rOMERO-gateway.
 
-6. Perform statistical analysis on that data in R.
+#. Perform statistical analysis on that data in R.
 
-7. At the end of the notebook a plot is created which is similar to the one shown in \ `Figure 1 <https://www.nature.com/articles/ncb2591/figures/1>`__\  of the article. One dataset in particular has extreme outliers. OMERO.parade https://github.com/ome/omero-parade can be used to find the images that cause the outliers.
+#. At the end of the notebook a plot is created which is similar to the one shown in \ `Figure 1 <https://www.nature.com/articles/ncb2591/figures/1>`__\  of the article. One dataset in particular has extreme outliers. OMERO.parade https://github.com/ome/omero-parade can be used to find the images that cause the outliers.
 
-8. Note: OMERO.parade uses the *Summary from R* table that is attached to the project in order to provide enhanced filtering and plotting features.
+#. Note: OMERO.parade uses the *Summary from R* table that is attached to the project in order to provide enhanced filtering and plotting features.

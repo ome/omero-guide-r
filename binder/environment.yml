@@ -1,0 +1,22 @@
+channels:
+- bioconda
+- conda-forge
+- defaults
+dependencies:
+- bioconductor-ebimage=4.24.*
+- openjdk=8.0.*
+- r-assertthat=0.2.0
+# https://github.com/ContinuumIO/anaconda-issues/issues/4656
+- r-base=3.5.*
+- r-devtools=2.0.*
+- r-httr=1.4.*
+- r-irdisplay=0.7.*
+- r-irkernel=1.0.*
+- r-jpeg=0.1_8
+- r-repr=1.0.*
+- r-rjava==0.9_10
+- r-roxygen2=6.1.*
+- r-testthat=2.1.*
+- r-tidyverse=1.2.*
+- r-xml2=1.2.*
+- r-getpass=0.2.*

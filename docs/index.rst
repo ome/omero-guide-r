@@ -11,4 +11,5 @@ Contents:
    :maxdepth: 1
 
    r_walkthrough
+   rstudio
 

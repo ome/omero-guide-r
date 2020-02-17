@@ -25,7 +25,7 @@ Configure Java for R (still using *root* user)::
 As normal user install and start up RStudio.
 In RStudio install the dependencies from CRAN needed for the romero.gateway package:
 
-.. image:: rstudio_romero_deps.png
+.. image:: images/rstudio_romero_deps.png
 
 Alternative: Run the following in the console:
 ``install.packages(c("jpeg", "curl", "httr", "rJava"))``
@@ -34,7 +34,7 @@ Alternative: Run the following in the console:
 Download the latest romero.gateway release tar.gz from `Github <https://github.com/ome/rOMERO-gateway/releases>`_.
 Install it in RStudio:
 
-.. image:: rstudio_romero.png
+.. image:: images/rstudio_romero.png
 
 Alternative: Run the following in the console:
 ``install.packages("~/Downloads/romero.gateway_0.4.8.tar.gz", repos = NULL, type = "source")``
@@ -50,9 +50,9 @@ checkbox to set the `JAVA_HOME` and `PATH` environment variables!
 
 Install the dependencies httr, jpeg and rJava from CRAN:
 
-.. image:: windows_romero_deps.png
+.. image:: images/windows_romero_deps.png
 
 Download the latest romero.gateway release zip from `Github <https://github.com/ome/rOMERO-gateway/releases>`_
 and install it:
 
-.. image:: windows_romero.png
+.. image:: images/windows_romero.png

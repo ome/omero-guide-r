@@ -6,7 +6,7 @@ rOMERO-gateway will use rJava to communicate with an OMERO server.
 **Install in a Conda environment**
 ----------------------------------
 
-In this section, we indicate how to install rOMERO-gateway in a `Conda <https://conda.io/en/latest/>`_environment.
+In this section, we indicate how to install rOMERO-gateway in a `Conda <https://conda.io/en/latest/>`_ environment.
 
 
 - We assume that you have a local copy of the `omero-guide-r repository <https://github.com/ome/omero-guide-r>`_. If not, first clone the repository::
@@ -32,3 +32,10 @@ In this section, we indicate how to install rOMERO-gateway in a `Conda <https://
 ----------------------
 
 See :doc:`rstudio`
+
+
+.. toctree::
+   :maxdepth: 1
+   :hidden:
+
+   rstudio

@@ -25,5 +25,4 @@ Contents:
 
    setup
    r_walkthrough
-   rstudio
 

@@ -3,10 +3,14 @@ Installing rOMERO-gateway
 
 rOMERO-gateway will use rJava to communicate with an OMERO server.
 
-**Install in a Conda environment**
-----------------------------------
 
-In this section, we show how to install rOMERO-gateway in a `Conda <https://conda.io/en/latest/>`_ environment.
+Install in a Conda environment
+------------------------------
+
+
+
+In this section, we show how to install rOMERO-gateway and additional packages for image analysis (see 
+:download:`environment.yml <../binder/environment.yml>` and :download:`postBuild <../binder/postBuild>`) in a `Conda <https://conda.io/en/latest/>`_ environment.
 
 
 - Install `Miniconda <https://docs.conda.io/en/latest/miniconda.html>`_ if necessary.
@@ -31,9 +35,13 @@ In this section, we show how to install rOMERO-gateway in a `Conda <https://cond
 
     $ bash binder/postBuild
 
+- Activate the environment::
 
-**Install in RStudio**
-----------------------
+    $ conda activate rgateway
+
+
+Install in RStudio
+------------------
 
 See :doc:`rstudio`
 

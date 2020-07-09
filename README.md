@@ -1,4 +1,10 @@
 # User guides for the OMERO R API
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ome/omero-guide-r/master?filepath=notebooks)
+
+[![Documentation Status](https://readthedocs.org/projects/omero-guide-r/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/r/docs/index.html)
+
+The documentation is deployed at [Use R API](https://omero-guides.readthedocs.io/en/latest/r/docs/index.html)
+
 
 This guide demonstrates how to use the OMERO R API.
 
@@ -9,7 +15,7 @@ To build locally:
 
  * Install [Docker](https://www.docker.com/) if required
  * Create a virtual environment and install repo2docker from PyPI.
- * Clone this repository
+ * Clone this repository.
  * Run ``repo2docker``
  * Depending on the permissions, you might have to run the command as an admin
 
@@ -19,6 +25,8 @@ git clone https://github.com/ome/omero-guide-r.git
 cd omero-guide-r
 repo2docker .
 ```
+
+See also [setup.rst](https://github.com/ome/omero-guide-r/blob/master/docs/setup.rst)
 
 
 This is a Sphinx based documentation. 

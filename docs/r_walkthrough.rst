@@ -64,9 +64,9 @@ Resources
 
 We will use data from the Image Data Resource (IDR).
 
--  IDR data `idr0021 <https://idr.openmicroscopy.org/webclient/?show=project-51>`_.
+-  IDR data `idr0021 <https://idr.openmicroscopy.org/webclient/?show=project-51>`__.
 
--  Notebook :file:`notebooks/idr0021_Segmentation.ipynb`.
+-  Notebook `idr0021_Segmentation.ipynb <https://mybinder.org/v2/gh/ome/omero-guide-r/master?filepath=notebooks/idr0021_Segmentation.ipynb>`_.
 
 For convenience, the IDR data have been imported into the training
 OMERO.server. This is only because we cannot save results back to IDR

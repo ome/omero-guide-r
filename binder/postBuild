@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
 
-ROMERO_VERSION=v0.4.8
+ROMERO_VERSION=v0.4.9
 curl -sf https://raw.githubusercontent.com/ome/rOMERO-gateway/$ROMERO_VERSION/install.R --output install.R
 OMERO_LIBS_DOWNLOAD=TRUE Rscript install.R --version=$ROMERO_VERSION --quiet
 rm install.R 

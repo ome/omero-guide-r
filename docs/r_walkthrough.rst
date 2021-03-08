@@ -64,7 +64,7 @@ Resources
 
 We will use data from the Image Data Resource (IDR).
 
--  IDR data `idr0021 <https://idr.openmicroscopy.org/search/?query=Name:idr0051>`__.
+-  IDR data `idr0021 <https://idr.openmicroscopy.org/search/?query=Name:idr0021>`__.
 
 -  Notebook `idr0021_Segmentation.ipynb <https://mybinder.org/v2/gh/ome/omero-guide-r/master?filepath=notebooks/idr0021_Segmentation.ipynb>`_.
 

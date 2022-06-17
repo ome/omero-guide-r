@@ -3,22 +3,21 @@ channels:
 - conda-forge
 - defaults
 dependencies:
-- bioconductor-ebimage
-- bioconductor-biocgenerics
+- bioconductor-ebimage=4.36.0
+- bioconductor-biocgenerics=0.40.0
 - openjdk=11
-- r-assertthat
+- r-assertthat=0.2.1
 # https://github.com/ContinuumIO/anaconda-issues/issues/4656
 - r-base=4.1.3
-- r-devtools
-- r-httr
-- r-irdisplay
-- r-irkernel
-- r-jpeg
-- r-repr
-- r-rjava
-- r-roxygen2
-- r-testthat
-- r-tidyverse
-- r-xml2
-- r-getpass
-
+- r-devtools=2.4.3
+- r-httr=1.4.3
+- r-irdisplay=1.1
+- r-irkernel=1.2
+- r-jpeg=0.1
+- r-repr=1.1.4
+- r-rjava=1.0
+- r-roxygen2=7.2.0
+- r-testthat=3.1.4
+- r-tidyverse=1.3.1
+- r-xml2=1.3.3
+- r-getpass=0.2

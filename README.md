@@ -3,7 +3,6 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ome/omero-guide-r/master?filepath=notebooks)
 [![Documentation Status](https://readthedocs.org/projects/omero-guide-r/badge/?version=latest)](https://omero-guides.readthedocs.io/en/latest/r/docs/index.html)
 [![Actions Status](https://github.com/ome/omero-guide-r/workflows/repo2docker/badge.svg)](https://github.com/ome/omero-guide-r/actions)
-[![Actions Status](https://github.com/ome/omero-guide-r/workflows/sphinx/badge.svg)](https://github.com/ome/omero-guide-r/actions)
 
 The documentation is deployed at [Use R API](https://omero-guides.readthedocs.io/en/latest/r/docs/index.html)
 
